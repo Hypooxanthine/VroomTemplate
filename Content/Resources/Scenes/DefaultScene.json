@@ -1,0 +1,248 @@
+{
+  "scene_nodes": [
+    {
+      "components": [
+        {
+          "params": [
+            {
+              "name": "Position",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Rotation",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Scale",
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ],
+          "type": "TransformComponent"
+        }
+      ],
+      "name": "Root",
+      "parent": null,
+      "type": "Root"
+    },
+    {
+      "components": [
+        {
+          "params": [
+            {
+              "name": "Position",
+              "value": [
+                0.0,
+                -3.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Rotation",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Scale",
+              "value": [
+                20.0,
+                1.0,
+                20.0
+              ]
+            }
+          ],
+          "type": "TransformComponent"
+        },
+        {
+          "params": [
+            {
+              "name": "ResourceName",
+              "value": "Resources/Engine/Meshes/default_cube.obj"
+            },
+            {
+              "name": "CastsShadow",
+              "value": true
+            },
+            {
+              "name": "Visible",
+              "value": true
+            }
+          ],
+          "type": "MeshComponent"
+        }
+      ],
+      "name": "Ground",
+      "parent": "Root",
+      "type": "Entity"
+    },
+    {
+      "components": [
+        {
+          "params": [
+            {
+              "name": "Position",
+              "value": [
+                0.0,
+                5.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Rotation",
+              "value": [
+                0.0,
+                5.759586811065674,
+                0.7853981852531433
+              ]
+            },
+            {
+              "name": "Scale",
+              "value": [
+                0.9999983310699463,
+                0.9999997615814209,
+                0.9999994039535522
+              ]
+            }
+          ],
+          "type": "TransformComponent"
+        },
+        {
+          "params": [
+            {
+              "name": "Color",
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "Intensity",
+              "value": 0.5
+            },
+            {
+              "name": "CastsShadows",
+              "value": true
+            }
+          ],
+          "type": "DirectionalLightComponent"
+        }
+      ],
+      "name": "Sunlight",
+      "parent": "Root",
+      "type": "Entity"
+    },
+    {
+      "components": [
+        {
+          "params": [
+            {
+              "name": "Position",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Rotation",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Scale",
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ],
+          "type": "TransformComponent"
+        },
+        {
+          "params": [
+            {
+              "name": "ResourceName",
+              "value": "Resources/Engine/Cubemaps/DefaultSkybox/DefaultSkybox.json"
+            }
+          ],
+          "type": "SkyboxComponent"
+        }
+      ],
+      "name": "Skybox",
+      "parent": "Root",
+      "type": "Entity"
+    },
+    {
+      "components": [
+        {
+          "params": [
+            {
+              "name": "Position",
+              "value": [
+                0.0,
+                -1.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Rotation",
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "Scale",
+              "value": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ],
+          "type": "TransformComponent"
+        },
+        {
+          "params": [
+            {
+              "name": "ResourceName",
+              "value": "Resources/Engine/Meshes/default_cube.obj"
+            },
+            {
+              "name": "CastsShadow",
+              "value": true
+            },
+            {
+              "name": "Visible",
+              "value": true
+            }
+          ],
+          "type": "MeshComponent"
+        }
+      ],
+      "name": "Cube",
+      "parent": "Root",
+      "type": "Entity"
+    }
+  ]
+}

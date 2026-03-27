@@ -1,0 +1,4 @@
+[submodule "deps/Vroom"]
+	path = deps/Vroom
+	url = git@github.com:Hypooxanthine/Vroom.git
+	branch = main
