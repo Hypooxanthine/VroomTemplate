@@ -21,7 +21,7 @@ file(GLOB_RECURSE SCRIPT_IMPL      ${SOURCE_DIR}/*.cpp)
 
 add_library(${VRM_SCRIPTS_PROJECT_NAME}                  SHARED  ${SCRIPT_IMPL} ${SCRIPT_HEADERS})
 target_include_directories(${VRM_SCRIPTS_PROJECT_NAME}   PRIVATE  ${INCLUDE_DIR})
-target_link_libraries(${VRM_SCRIPTS_PROJECT_NAME}        PRIVATE  Vroom ScriptApi)
+target_link_libraries(${VRM_SCRIPTS_PROJECT_NAME}        PRIVATE  Vroom::ScriptApi)
 
 # Compile options
 if (MSVC)

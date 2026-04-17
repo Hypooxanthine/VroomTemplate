@@ -2,7 +2,7 @@
 
 #include <ScriptApi/ScriptApi.h>
 
-#include <Vroom/Scene/Components/ScriptComponent.h>
+#include <Scene/ScriptComponent.h>
 
 class MyScript : public vrm::ScriptComponent
 {
